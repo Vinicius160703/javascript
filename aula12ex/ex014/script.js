@@ -11,10 +11,10 @@ function carregar() {
     } else if (hora >= 12 && hora < 18) {
         // BOA TARDE!
         img.src = 'tarde.png'
-        document.body.style.backgroun = '#b9846f'
+        document.body.style.background = '#b9846f'
     } else {
         // BOA NOITE!
         img.src = 'noite.png'
-        document.body.style.backgroun = '#515154'
+        document.body.style.background = '#515154'
     }
 }
